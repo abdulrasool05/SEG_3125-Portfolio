@@ -1,0 +1,123 @@
+html, body {
+    overflow: hidden; 
+    height: 100vh;
+    margin: 0;
+    font-family: Poppins;
+  }
+
+.section {
+    scroll-snap-align: start;
+    height: 100vh;
+}
+
+nav.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #080e21;
+}
+
+
+.snap-container {
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    max-height: 100vh; 
+    scroll-behavior: smooth;
+    background-color: 	#080e21;
+    overflow-x: hidden;
+}   
+
+.row{
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutMe{
+    margin-right: 6rem;
+}
+
+.nameHeader{
+    margin-bottom: 1rem;
+}
+
+.aboutSection{
+    padding-top: 17vh;
+    height: 100vh;
+}
+
+.aboutMeText{
+    font-size: 18px;
+    color: #FAFAFA;
+    font-family: Poppins;
+    font-weight: 300;
+}
+
+.nameText{
+    font-size: 4.5rem;
+    font-family: Poppins;
+    font-weight: 600;
+    background: linear-gradient(90deg, #52d0a3, #f5bf28);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.subHeader{
+    color: #FAFAFA;
+    font-family: Poppins
+    
+}
+
+.projectsHeader{
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 3rem;
+    color:#FAFAFA; 
+}
+
+.cardButton.btn.btn-primary{
+    background-color: #14b8a6;
+    border: none;
+}
+
+#projects{
+    padding-top: 6rem;
+}
+
+.projectsButton.btn.btn-outline-primary{
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #14b8a6;
+    border-color: #14b8a6;
+    border-radius: 10px;
+}
+
+.projectsButton.btn.btn-outline-primary:hover{
+    background-color: #14b8a6;
+    color: white;
+}
+
+.projectLandingpage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.landPageHeader{
+    font-size: 5rem;
+    font-family: Poppins;
+    font-weight: 700;
+}
+
+.linkedinLink{
+    color:#14b8a6;
+    margin-left: 20px;
+}
