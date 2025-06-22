@@ -6,7 +6,6 @@ html, body {
   }
 
 .section {
-    scroll-snap-align: start;
     height: 100vh;
 }
 
@@ -24,7 +23,6 @@ nav.navbar{
 
 
 .snap-container {
-    scroll-snap-type: y mandatory;
     overflow-y: scroll;
     max-height: 100vh; 
     scroll-behavior: smooth;
